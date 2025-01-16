@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Fraud Detection</title>
+    <link rel="stylesheet" href="detect.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>UPI Fraud Detection</h1>
+            <nav>
+                <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="check.html">Check</a></li>
+                    <li><a href="upload.html">Upload</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay">
+            <h2>UPI FRAUD DETECTION</h2>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="form-container">
+            <form action="#" method="POST">
+                <div class="row">
+                    <div class="column">
+                     <label>Enter UPI number</label>
+                        <input type="text" placeholder="Enter UPI number">
+
+                        <label>UPI holder name</label>
+                        <input type="text" placeholder="UPI holder name">
+
+                        <label>Select state</label>
+                        <select>
+                            <option>Select state</option>
+                            <option>State 1</option>
+                            <option>State 2</option>
+                            <option>State 3</option>
+                        </select>
+
+                        <label>Enter the date and time of transaction</label>
+                        <input type="datetime-local">
+                        
+                        <label>Enter Seller name</label>
+                        <input type="text" placeholder="Enter Seller name">
+                    </div>
+
+                    <div class="column">
+                        <label>Enter date of Birth</label>
+                        <input type="date">
+
+                        <label>Enter pin code</label>
+                        <input type="text" placeholder="Enter pin code">
+
+                        <label>Enter transaction amount (Rs)</label>
+                        <input type="number" placeholder="Enter amount">
+
+                        <label>Select merchant category</label>
+                        <select>
+                            <option>Select category</option>
+                            <option>Category 1</option>
+                            <option>Category 2</option>
+                            <option>Category 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="submit-btn">
+                    <button type="submit">Click to Detect</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
